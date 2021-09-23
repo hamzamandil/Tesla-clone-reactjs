@@ -5,12 +5,12 @@ function Footer() {
     return (
         <Wrapper>
             <ul>
-                <li><a href="#">Tesla &copy; 2021</a></li>
-                <li><a href="#">Privacy & Legal</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Engage</a></li>
-                <li><a href="#">Locations</a></li>
+                <li><a href="/#">Tesla &copy; 2021</a></li>
+                <li><a href="/#">Privacy & Legal</a></li>
+                <li><a href="/#">Contact</a></li>
+                <li><a href="/#">Careers</a></li>
+                <li><a href="/#">Engage</a></li>
+                <li><a href="/#">Locations</a></li>
             </ul>
         </Wrapper>
     )

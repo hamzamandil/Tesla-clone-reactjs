@@ -26,14 +26,14 @@ function Header() {
             <Menu>
             {
                 cars && cars.map((car,i) => (
-                    <a href="#" key={i}>{car}</a>
+                    <a href="/#" key={i}>{car}</a>
                 ))
             }
             </Menu>
             <RightMenu>
-                <a href="#">Shop</a>
-                <a href="#">Account</a>
-                <a href="#"  onClick={handleMenuStatus}>Menu</a>
+                <a href="/#">Shop</a>
+                <a href="/#">Account</a>
+                <a href="/#"  onClick={handleMenuStatus}>Menu</a>
             </RightMenu>
 
             <SideBar show={openMenu}>
@@ -41,19 +41,19 @@ function Header() {
                     <CustomClose onClick={handelMenuClose}/>
                 </CloseWrapper>
                 <ul>
-                    <li><a href="#">Existing Inventory</a></li>
-                    <li><a href="#">Used Inventory</a></li>
-                    <li><a href="#">Trade-in</a></li>
-                    <li><a href="#">Cybertruck</a></li>
-                    <li><a href="#">Roadster</a></li>
-                    <li><a href="#">Semi</a></li>
-                    <li><a href="#">Charging</a></li>
-                    <li><a href="#">Powerwall</a></li>
-                    <li><a href="#">Comercial Energy</a></li>
-                    <li><a href="#">Utilities</a></li>
-                    <li><a href="#">Find Us</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="/#">Existing Inventory</a></li>
+                    <li><a href="/#">Used Inventory</a></li>
+                    <li><a href="/#">Trade-in</a></li>
+                    <li><a href="/#">Cybertruck</a></li>
+                    <li><a href="/#">Roadster</a></li>
+                    <li><a href="/#">Semi</a></li>
+                    <li><a href="/#">Charging</a></li>
+                    <li><a href="/#">Powerwall</a></li>
+                    <li><a href="/#">Comercial Energy</a></li>
+                    <li><a href="/#">Utilities</a></li>
+                    <li><a href="/#">Find Us</a></li>
+                    <li><a href="/#">Support</a></li>
+                    <li><a href="/#">Investor Relations</a></li>
                 </ul>
             </SideBar>
         </Container>
